@@ -1,7 +1,7 @@
 <template>
   <article class="home">
     <section class="home__nav">
-      <!-- Add Nav -->
+      <AppNavigation />
     </section>
     <section class="home__content">
       <h1 class="home__content-heading raleway-700">Don't Show Me That</h1>
@@ -52,6 +52,7 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
+import AppNavigation from "../components/AppNavigation.vue";
 
 const email = ref<String>("");
 
