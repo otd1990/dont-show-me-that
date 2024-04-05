@@ -1,9 +1,6 @@
 <template>
   <div>
-    <h1>Don't show me that!</h1>
-    <div v-for="post in posts" :key="post.id">
-      {{ post.text }}
-    </div>
+    <NuxtPage />
   </div>
 </template>
 
